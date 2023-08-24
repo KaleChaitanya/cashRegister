@@ -7,37 +7,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <label for="bill-amount">Bill Amount</label><br />
-    <input type="text" id="bill-amount" /><br />
+    <h2 class="heading">Cash Register Manager</h2>
+    <div class="container">
+      <label for="bill-amount" class="labelText">Bill Amount</label><br />
+      <input type="number" id="bill-amount" class="inputValue"/><br />
 
-    <label for="cash-given">Cash Given</label><br />
-    <input type="text" id="cash-given" /><br />
+      <label for="cash-given" class="labelText">Cash Given</label><br />
+      <input type="number" id="cash-given" class="inputValue"/><br />
 
-    <button id="check-button">Check</button>
-    <p id="user-message"></p>
-    <h5>Return Change</h5>
-    <table>
-      <tr>
-        <th>No of notes</th>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-        <td class="no-of-notes"></td>
-      </tr>
-      <tr>
-        <th>Notes</th>
-        <td>2000</td>
-        <td>500</td>
-        <td>100</td>
-        <td>20</td>
-        <td>10</td>
-        <td>5</td>
-        <td>1</td>
-      </tr>
-    </table>
+      <button id="check-button">Check</button>
+      <p id="user-message"></p>
+      <h5 class="labelText">Return Change</h5>
+      <table class="table">
+        <tr>
+          <th>No of notes</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>
